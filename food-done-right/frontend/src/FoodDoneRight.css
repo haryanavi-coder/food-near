@@ -1,0 +1,84 @@
+/* FoodDoneRight.css */
+
+.food-done-right-container {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Reset margin */
+    padding: 20px;
+    background: linear-gradient(45deg, #3498db, #e74c3c), url('./assets/restaurant1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    background: linear-gradient(45deg, #2ecc71, #f39c12), url('./assets/restaurant1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .outlet-name {
+    font-weight: bold;
+    color: #008080;
+  }
+  
+  #addressInput,
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #ecf0f1;
+    margin-right: 10px;
+  }
+  
+  #addressInput {
+    background-color: #ecf0f1;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  
+  
+  
